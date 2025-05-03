@@ -33,7 +33,7 @@ class RestaurantFinderService implements IRestaurantFinderService {
   }
 
   async chatToLLM(
-    model: Ollama,
+    model: Ollama | ChatOpenAI,
     message: string,
     promptTemplateMessage: string,
     prompTemplateOption: { [key: string]: string },
@@ -54,14 +54,13 @@ class RestaurantFinderService implements IRestaurantFinderService {
       if (spit) {
         const splitter = new RecursiveCharacterTextSplitter(splitOption);
         const output = await splitter.splitDocuments([new Document({ pageContent: formatedTempalte })]);
-        console.log(output);
         for (const doc of output) {
           const llmResponse = await model.invoke(doc.pageContent);
-          console.log('RESONSE HIT');
+
           response += llmResponse + '\n';
         }
       } else {
-        response = await model.invoke(formatedTempalte);
+        response = (await model.invoke(formatedTempalte)) as any;
       }
 
       return response;
