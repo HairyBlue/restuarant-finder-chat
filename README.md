@@ -2,8 +2,8 @@
 
 ## Purpose 
 ( ﾟヮﾟ) This repo serve as my code challenge on integrating LLM in a web app.\
-(＠_＠;) This serve as Restaurantfinder chat assistant.\
-(￣▽￣*)ゞ This serve as punishment for not learning earlier on LLM and proper prompts.
+(＠_＠;) This serve as Restaurant finder chat assistant.\
+(￣▽￣*)ゞ This may serve as punishment for not learning earlier on LLM and proper prompts.
 
 ## (⌐■_■) Tech Stack Used and Libraries
 | Type   |  Tech Stack Used and Libraries  |
