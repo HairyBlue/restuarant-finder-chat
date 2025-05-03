@@ -1,4 +1,4 @@
-# RestaurantFinder Chat
+# Restaurant Finder Chat
 
 ## Purpose 
 ( ﾟヮﾟ) This repo serve as my code challenge on integrating LLM in a web app.\
