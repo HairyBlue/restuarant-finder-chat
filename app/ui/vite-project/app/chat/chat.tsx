@@ -143,7 +143,7 @@ export default function Chat() {
 
    return (
       <main className="max-w-[1280px] m-auto h-screen flex flex-col justify-between border py-4">
-         <section className="overflow-auto">
+         <section className="overflow-y-auto">
             <div className="py-4 px-8">
                { 
                   chatHistory.map((entry, index) => (
