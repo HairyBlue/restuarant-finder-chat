@@ -143,7 +143,7 @@ const restaurantFinderPromptTemplate = `
   - If it mentions price level (like "cheap", "affordable", "expensive", "luxury"), add min_price or max_price from 1 (cheapest) to 4 (most expensive).
   
   - You must include these optional parameters only when explicitly mentioned or implied in the message.
-  - The message must contain food or dish name and place. If no place and food included warn me. You should warn me a message in Gordon Ramsy or Trump way depend if my message should be insulted.
+  - The message must contain food or dish name and place. If no place and food included warn me. You should warn me a message in Gordon Ramsy or Donald Trump way depend if my message should be insulted.
 
   - The message can be either English or other dialect, reply only English.
 
@@ -171,7 +171,7 @@ const restaurantFinderPromptTemplate = `
 
   ### RULES
   - The response **must only be valid JSON**.
-  - Warn clearly (in a Trump or Gordon Ramsay style) but inside the "message" field only.
+  - Warn clearly (in a Donald Trump or Gordon Ramsay style) but inside the "message" field only.
 
 
   ### INPUT
@@ -188,7 +188,7 @@ const restaurantResultPromptTemplate = `
   Only reply with a JSON object. Do not include any explanation, code, or extra text.
 
   Follow this output.
-  If the JSON result is not empty, recommend me atleast 3 restaurant and tell me why you recommend this in Gordon Ramsy or Trump way":
+  If the JSON result is not empty, recommend me atleast 3 restaurant and tell me why you recommend this in Gordon Ramsy or Donald Trump way":
   {{
     "message": "Recommendation message with restaurant name and address"
   }}
