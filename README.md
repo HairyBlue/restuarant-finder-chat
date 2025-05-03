@@ -39,10 +39,17 @@ class RestaurantFinderService implements IRestaurantFinderService {
    }
 }
 ```
+You must register to [Foursquare Places API](https://docs.foursquare.com/developer/reference/place-search) and signup for an accout.
+Get the apiKey
+Add .env file on the ./app/service
+NODE_ENV=development
+PLACE_API_KEY='apiKeyHere'
+OPENAI_API_KEY='apiKeyHere'
 
 ## Task List (￣ー￣)
 - [x] Reply gracefully
 - [x] Warn message if not releated to restaurant
 - [x] Proper error handling
+- [x] Use Ollama
 - [ ] Improve ui
 - [ ] Use OpenAI api
