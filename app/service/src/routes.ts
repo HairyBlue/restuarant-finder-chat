@@ -4,7 +4,7 @@ import type { TOption, IExecute } from './types';
 function buildRoute(fastify: FastifyInstance, opt: TOption, done: HookHandlerDoneFunction) {
   fastify.post('/execute', async function (req: FastifyRequest<{ Body: IExecute }>, res: FastifyReply) {
     const { prefix, rfs } = opt;
-    let { message, location } = req.body;
+    const { message, location } = req.body;
 
     if (!message) {
       res.code(400).send({
@@ -14,13 +14,9 @@ function buildRoute(fastify: FastifyInstance, opt: TOption, done: HookHandlerDon
       return;
     }
 
-    message = message
-    .replace(/\\n/g, ' ')            
-    .replace(/\s+/g, ' ')          
-    .replace(/\|\s*/g, '|')         
-    .replace(/\s*\|/g, '|')     
-    .trim();
-    return await rfs.findRestaurant(message, location);
+    const cleanMesage = message.replace(/\\n/g, ' ').replace(/\s+/g, ' ').replace(/\|\s*/g, '|').replace(/\s*\|/g, '|').trim();
+
+    return await rfs.findRestaurant(cleanMesage, location);
   });
 
   done();

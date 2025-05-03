@@ -7,7 +7,7 @@
 //   <instruction>
 //     The "action" should be either "restaurant_search" for success encoding or "failed_restaurant_search" for redundant "encoding".
 
-//     The parameters object must include: query and near. 
+//     The parameters object must include: query and near.
 //     - "query" should only matched the name of food (e.g sushi).
 //     - "near" should only matched the name of locality in the world (e.g., "Chicago, IL", "Manila, Philippines").
 
@@ -21,13 +21,13 @@
 
 //     - If the message contains "open now", "currently open", "still open", or similar phrases, add "open_now": true.
 //     - If it mentions price level (like "cheap", "affordable", "expensive", "luxury"), add min_price or max_price from 1 (cheapest) to 4 (most expensive).
-    
+
 //     You must include these optional parameters only when explicitly mentioned or implied in the message.
 
 //     The message must contain dish/food and place.
 //     The message can be either English or other dialect, translate the message if not engish to english and process it.
 //   </instruction>
-  
+
 //   <reference>
 //     For message that is related to restaurant, use this following format:
 //     {{
@@ -42,16 +42,16 @@
 
 //   <reference>
 //     For message that is not related to restaurant or food, use this following format:
-   
+
 //       {{
 //         "action": "failed_restaurant_search",
 //         "message": "You should warn me a message here in meaningfull phrases or in Gordon Ramsy way"
 //       }}
-   
+
 //   </reference>
 
 //   <output-format>
-//     \`\`\`json  
+//     \`\`\`json
 //     {{
 //       "key": "string|number|boolean",
 //       ...
@@ -63,7 +63,6 @@
 //     {message}
 //   </my-message>
 // </template>`;
-
 
 // const restaurantResultPromptTemplate = `
 // <template>
@@ -99,9 +98,9 @@
 //       "message": "A message explaining the recommendation... |<Restaurant Name> (<Restaurant Location Address>)|<Restaurant Name> (<Restaurant Location Address>)|"
 //     }}
 //   </reference>
-  
+
 //   <output-format>
-//     \\\\json  
+//     \\\\json
 //     {{
 //       "message": "string"
 //     }}
@@ -202,8 +201,5 @@ const restaurantResultPromptTemplate = `
   key "message" should only be a plain text no escape line included
   ### INPUT
   json data result: {json}
-`
-export {
-   restaurantFinderPromptTemplate,
-   restaurantResultPromptTemplate
-}
+`;
+export { restaurantFinderPromptTemplate, restaurantResultPromptTemplate };
