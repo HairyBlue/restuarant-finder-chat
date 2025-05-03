@@ -1,0 +1,41 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "ts-node -r tsconfig-paths/register src/app.ts",
+    "dev:nodemon": "nodemon -r tsconfig-paths/register src/app.ts",
+    "build:tsup": "rm -rf dist && tsup src/app.ts --out-dir dist --target es2020",
+    "build:esbuild": "rm -rf dist && esbuild src/app.ts --bundle --platform=node --outfile=dist/app.js --alias:@=src",
+    "start": "npm run build:tsup && node dist/app.js",
+    "lint": "eslint",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@huggingface/inference": "^2.8.1",
+    "@langchain/community": "^0.3.42",
+    "@langchain/core": "^0.3.51",
+    "@langchain/ollama": "^0.2.0",
+    "@langchain/openai": "^0.5.10",
+    "@langchain/textsplitters": "^0.1.0",
+    "dotenv": "^16.5.0",
+    "fastify": "^5.3.2",
+    "langchain": "^0.3.24",
+    "tsup": "^8.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "esbuild": "0.25.3",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.1"
+  }
+}

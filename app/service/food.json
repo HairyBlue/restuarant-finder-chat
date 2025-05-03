@@ -1,0 +1,423 @@
+{
+  "results": [
+    {
+      "fsq_id": "4f9e379de4b0b045863105bb",
+      "categories": [
+        {
+          "id": 13145,
+          "name": "Fast Food Restaurant",
+          "short_name": "Fast Food",
+          "plural_name": "Fast Food Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 3158,
+      "geocodes": {
+        "main": {
+          "latitude": 6.745738,
+          "longitude": 125.35717
+        },
+        "roof": {
+          "latitude": 6.745738,
+          "longitude": 125.35717
+        }
+      },
+      "link": "/v3/places/4f9e379de4b0b045863105bb",
+      "location": {
+        "address": "Ramon Magsaysay Street",
+        "country": "PH",
+        "cross_street": "",
+        "formatted_address": "Ramon Magsaysay Street, 8002 Digos",
+        "locality": "Digos",
+        "postcode": "8002"
+      },
+      "name": "Prangel's Snack Inn",
+      "related_places": {},
+      "timezone": "Asia/Manila"
+    },
+    {
+      "fsq_id": "5619bdd7498ec9812165b0db",
+      "categories": [
+        {
+          "id": 18075,
+          "name": "Swimming Pool",
+          "short_name": "Pool",
+          "plural_name": "Swimming Pools",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/pool_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 635,
+      "geocodes": {
+        "main": {
+          "latitude": 6.713289,
+          "longitude": 125.351396
+        }
+      },
+      "link": "/v3/places/5619bdd7498ec9812165b0db",
+      "location": {
+        "country": "PH",
+        "cross_street": "",
+        "formatted_address": ""
+      },
+      "name": "Frantina Inland Resort",
+      "related_places": {},
+      "timezone": "Asia/Manila"
+    },
+    {
+      "fsq_id": "50e40bdee4b0b76a46746e34",
+      "categories": [
+        {
+          "id": 13146,
+          "name": "Filipino Restaurant",
+          "short_name": "Filipino",
+          "plural_name": "Filipino Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/filipino_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 3507,
+      "geocodes": {
+        "main": {
+          "latitude": 6.748863,
+          "longitude": 125.355237
+        }
+      },
+      "link": "/v3/places/50e40bdee4b0b76a46746e34",
+      "location": {
+        "country": "PH",
+        "cross_street": "",
+        "formatted_address": ""
+      },
+      "name": "Santos Lechon Manok Seafoods and Grill",
+      "related_places": {},
+      "timezone": "Asia/Manila"
+    },
+    {
+      "fsq_id": "4e2b070718387cce066e715f",
+      "categories": [
+        {
+          "id": 16003,
+          "name": "Beach",
+          "short_name": "Beach",
+          "plural_name": "Beaches",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/beach_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 1206,
+      "geocodes": {
+        "main": {
+          "latitude": 6.710664,
+          "longitude": 125.36422
+        }
+      },
+      "link": "/v3/places/4e2b070718387cce066e715f",
+      "location": {
+        "country": "PH",
+        "cross_street": "",
+        "formatted_address": "8006 Hagonoy, Davao del Sur",
+        "locality": "Hagonoy",
+        "postcode": "8006",
+        "region": "Davao del Sur"
+      },
+      "name": "Leling Beach",
+      "related_places": {},
+      "timezone": "Asia/Manila"
+    },
+    {
+      "fsq_id": "552508a9498e9338ad71f99d",
+      "categories": [
+        {
+          "id": 13068,
+          "name": "American Restaurant",
+          "short_name": "American",
+          "plural_name": "American Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13383,
+          "name": "Steakhouse",
+          "short_name": "Steakhouse",
+          "plural_name": "Steakhouses",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 3927,
+      "geocodes": {
+        "drop_off": {
+          "latitude": 6.752363,
+          "longitude": 125.354313
+        },
+        "main": {
+          "latitude": 6.752375,
+          "longitude": 125.354058
+        }
+      },
+      "link": "/v3/places/552508a9498e9338ad71f99d",
+      "location": {
+        "address": "2351 Padillo Street",
+        "country": "PH",
+        "cross_street": "",
+        "formatted_address": "2351 Padillo Street, Digos",
+        "locality": "Digos"
+      },
+      "name": "Upperfarm Steakhouse",
+      "related_places": {},
+      "timezone": "Asia/Manila"
+    },
+    {
+      "fsq_id": "529883a511d21cfe11229d38",
+      "categories": [
+        {
+          "id": 13015,
+          "name": "Karaoke Bar",
+          "short_name": "Karaoke",
+          "plural_name": "Karaoke Bars",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/karaoke_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 3309,
+      "geocodes": {
+        "main": {
+          "latitude": 6.745926,
+          "longitude": 125.347695
+        }
+      },
+      "link": "/v3/places/529883a511d21cfe11229d38",
+      "location": {
+        "country": "PH",
+        "cross_street": "",
+        "formatted_address": "8002 Digos, Davao del Sur",
+        "locality": "Digos",
+        "postcode": "8002",
+        "region": "Davao del Sur"
+      },
+      "name": "Shooters Grill and KTV",
+      "related_places": {},
+      "timezone": "Asia/Manila"
+    },
+    {
+      "fsq_id": "55ab3f94498e73eddc472bdb",
+      "categories": [
+        {
+          "id": 13035,
+          "name": "Coffee Shop",
+          "short_name": "Coffee Shop",
+          "plural_name": "Coffee Shops",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13146,
+          "name": "Filipino Restaurant",
+          "short_name": "Filipino",
+          "plural_name": "Filipino Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/filipino_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 2895,
+      "geocodes": {
+        "drop_off": {
+          "latitude": 6.743118,
+          "longitude": 125.355089
+        },
+        "main": {
+          "latitude": 6.743126,
+          "longitude": 125.354895
+        }
+      },
+      "link": "/v3/places/55ab3f94498e73eddc472bdb",
+      "location": {
+        "country": "PH",
+        "cross_street": "",
+        "formatted_address": ""
+      },
+      "name": "The Coffee Company",
+      "related_places": {},
+      "timezone": "Asia/Manila"
+    },
+    {
+      "fsq_id": "4c2f36846f1fef3b0f7aeb3d",
+      "categories": [
+        {
+          "id": 16032,
+          "name": "Park",
+          "short_name": "Park",
+          "plural_name": "Parks",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 3000,
+      "geocodes": {
+        "main": {
+          "latitude": 6.744329,
+          "longitude": 125.355502
+        }
+      },
+      "link": "/v3/places/4c2f36846f1fef3b0f7aeb3d",
+      "location": {
+        "address": "Pan-Philippine Highway",
+        "country": "PH",
+        "cross_street": "",
+        "formatted_address": "Pan-Philippine Highway, 8002 Digos, Davao del Sur",
+        "locality": "City of Digos",
+        "postcode": "8002",
+        "region": "Davao del Sur"
+      },
+      "name": "Rizal Park",
+      "related_places": {},
+      "timezone": "Asia/Manila"
+    },
+    {
+      "fsq_id": "519a3d9c498e791ef0787f1c",
+      "categories": [
+        {
+          "id": 13016,
+          "name": "Lounge",
+          "short_name": "Lounge",
+          "plural_name": "Lounges",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 3964,
+      "geocodes": {
+        "main": {
+          "latitude": 6.752787,
+          "longitude": 125.355253
+        }
+      },
+      "link": "/v3/places/519a3d9c498e791ef0787f1c",
+      "location": {
+        "country": "PH",
+        "cross_street": "Sacred Heart Ave.",
+        "formatted_address": "Sacred Heart Ave., 8002 Digos, Davao del Sur",
+        "locality": "Digos",
+        "postcode": "8002",
+        "region": "Davao del Sur"
+      },
+      "name": "Franco's Tavern",
+      "related_places": {},
+      "timezone": "Asia/Manila"
+    },
+    {
+      "fsq_id": "4cd1ff25ad4cef3b41609b4b",
+      "categories": [
+        {
+          "id": 13106,
+          "name": "Dim Sum Restaurant",
+          "short_name": "Dim Sum",
+          "plural_name": "Dim Sum Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/dimsum_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13145,
+          "name": "Fast Food Restaurant",
+          "short_name": "Fast Food",
+          "plural_name": "Fast Food Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13315,
+          "name": "Noodle Restaurant",
+          "short_name": "Noodles",
+          "plural_name": "Noodle Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/ramen_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 4201,
+      "geocodes": {
+        "main": {
+          "latitude": 6.754613,
+          "longitude": 125.355337
+        },
+        "roof": {
+          "latitude": 6.754613,
+          "longitude": 125.355337
+        }
+      },
+      "link": "/v3/places/4cd1ff25ad4cef3b41609b4b",
+      "location": {
+        "address": "Rizal Avenue",
+        "country": "PH",
+        "cross_street": "",
+        "formatted_address": "Rizal Avenue, 8002 Davao City, Davao del Sur",
+        "locality": "City of Digos",
+        "postcode": "8002",
+        "region": "Davao del Sur"
+      },
+      "name": "Dimsum Diner",
+      "related_places": {},
+      "timezone": "Asia/Manila"
+    }
+  ],
+  "context": {
+    "geo_bounds": {
+      "circle": {
+        "center": {
+          "latitude": 6.7172,
+          "longitude": 125.3556
+        },
+        "radius": 10000
+      }
+    }
+  }
+}
