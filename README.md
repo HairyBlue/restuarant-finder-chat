@@ -1,8 +1,8 @@
-# Restuarant Finder Chat
+# RestaurantFinder Chat
 
 ## Purpose 
 ( ﾟヮﾟ) This repo serve as my code challenge on integrating LLM in a web app.
-(＠_＠;) This serve as restuarant finder chat assistant
+(＠_＠;) This serve as Restaurantfinder chat assistant
 (￣▽￣*)ゞ This serve as punishment for not learning earlier on LLM and proper prompts.
 
 ## (⌐■_■) Tech Stack Used and Libraries

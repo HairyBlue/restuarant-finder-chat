@@ -4,8 +4,8 @@ import Chat from "~/chat/chat";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Restuarant Finder Assistant" },
-    { name: "description", content: "Welcome to Restuarant Finder Chat Assistant!" },
+    { title: "RestaurantFinder Assistant" },
+    { name: "description", content: "Welcome to RestaurantFinder Chat Assistant!" },
   ];
 }
 

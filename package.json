@@ -1,9 +1,9 @@
 {
-   "name": "grestuarant-finder-chat",
+   "name": "restuarant-finder-chat",
    "version": "1.0.0",
    "author": "Hairyblue",
    "homepage": "https://github.com/HairyBlue/graphql-journey#readme",
-   "description": "A Restuarant Finder Chat",
+   "description": "A RestaurantFinder Chat",
    "engines": {
      "node": "20.17.0",
      "vscode": "^1.22.0"
