@@ -3,7 +3,7 @@
 ## Purpose 
 ( ﾟヮﾟ) This repo serve as my code challenge on integrating LLM in a web app.\
 (＠_＠;) This serve as Restaurantfinder chat assistant.\
-(￣▽￣*)ゞ This serve as punishment for not learning earlier on LLM and proper prompts.\
+(￣▽￣*)ゞ This serve as punishment for not learning earlier on LLM and proper prompts.
 
 ## (⌐■_■) Tech Stack Used and Libraries
 | Type   |  Tech Stack Used and Libraries  |
@@ -21,7 +21,7 @@ Must use bash terminal
 ```
 ## Prerequisites (ಠ_ಠ)
 You must install Ollama on your machine. [Ollama link](https://ollama.com)\
-If you have LLM provider maybe because i am poor.\
+If you have LLM provider maybe because i am poor.
 
 AT restaurant-finder.service.ts file, change or add the following
 ```js
@@ -45,7 +45,7 @@ Get the apiKey\
 Add .env file on the ./app/service\
 NODE_ENV=development\
 PLACE_API_KEY='apiKeyHere'\
-OPENAI_API_KEY='apiKeyHere'\
+OPENAI_API_KEY='apiKeyHere'
 
 ## Task List (￣ー￣)
 - [x] Reply gracefully
