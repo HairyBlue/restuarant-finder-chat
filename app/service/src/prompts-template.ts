@@ -165,7 +165,7 @@ const restaurantFinderPromptTemplate = `
     \`\`\`json
       **open curly brace**
         "action": "failed_restaurant_search",
-        "message": "<insult-style warning in English>",
+        "message": "<insult-style warning in English by Gordon Ramsy or Donal Trump>",
       **close curly brace**
     \`\`\`
 
