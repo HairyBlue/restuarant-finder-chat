@@ -10,7 +10,7 @@
 | ----------- | ----------- |
 | Backend     | Fastify, Typescript |
 | Frontend    | React, React Router 7, Tailwind |
-| LLM         | LangChain, Ollama, llama3.2 |
+| LLM and related tools        | LangChain, Ollama, llama3.2 |
 | Others      | git, bash, vscode, postman |
 
 ## Usage  (°ロ°)☝
@@ -21,13 +21,24 @@ Must use bash terminal
 ```
 ## Prerequisites (ಠ_ಠ)
 You must install Ollama on your machine. [Ollama link](https://ollama.com)\
-If you have LLM provider maybe because i am poor.
+If you have LLM provider maybe because `I am poor`.
+
+You must install a LLM wrapper from langchain, example for ChatGpt OpenAI
+```bash
+npm i @langchain/openai
+```
 
 AT restaurant-finder.service.ts file, change or add the following
 ```js
 class RestaurantFinderService implements IRestaurantFinderService {
   private modelOllama: Ollama; 
   private modelChatOpenAi: ChatOpenAI; // add you llm provider here
+
+  // initiate your LLM provider, let say openai model
+  constructor() {
+    this.modelOllama = this.useModel(Ollama, { model: 'llama3.2', temperature: 0 });
+    this.modelChatOpenAi = this.useModel(ChatOpenAI, { model: 'o4-mini', temperature: 0 });
+  }
 
    // at findRestaurant add ChatOpenAI for
    async chatToLLM(model: Ollama | ChatOpenAI) {}
