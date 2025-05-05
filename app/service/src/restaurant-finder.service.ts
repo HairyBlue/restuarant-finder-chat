@@ -81,6 +81,7 @@ class RestaurantFinderService implements IRestaurantFinderService {
     });
 
     if (!res.ok) {
+      console.log('Failed to fetch restuarant => ', res.ok, res.statusText, +'(' + res.status + ')');
       return {};
     }
 
@@ -109,7 +110,8 @@ class RestaurantFinderService implements IRestaurantFinderService {
     try {
       parseChatResponse = JSON.parse(chatResponse1);
     } catch (e) {
-      console.error('Unable to parse chat response 1', e);
+      console.error('Unable to parse chat response 1 \n', chatResponse1);
+      console.error(e);
     }
 
     if (!parseChatResponse) {
@@ -127,7 +129,7 @@ class RestaurantFinderService implements IRestaurantFinderService {
     }
 
     parseChatResponse.parameters.fields = 'name,location,hours_popular,hours,menu,price,rating,meals,food_and_drink';
-    parseChatResponse.parameters.limit = 20;
+    parseChatResponse.parameters.limit = 10;
     parseChatResponse.parameters.radius = 100000;
     const encodedParam = encodeURIComponent(new URLSearchParams(parseChatResponse?.parameters).toString());
 
@@ -157,7 +159,8 @@ class RestaurantFinderService implements IRestaurantFinderService {
     try {
       parseChatResponse2 = JSON.parse(chatResponse2);
     } catch (e) {
-      console.error('Unable to parse chat response 2', e);
+      console.error('Unable to parse chat response 2 \n', chatResponse2);
+      console.error(e);
     }
 
     if (parseChatResponse2) {
