@@ -24,8 +24,13 @@ function cp_ui_to_service() {
 }
 
 
+function cp_env_to_service_dist() {
+      cp  -r  "./app/service/.env" "./app/service/dist" || exitf "unable to copy env ./app/service/.env  => ./app/service/dist"
+}
+
 if [ "$1" == "svc" ]; then
    cp_ui_to_service
+   cp_env_to_service_dist
    cd "./app/service/dist"
    node app.js || exitf "Unable to start sevice"
 elif [ "$1" == "svc-dev" ]; then

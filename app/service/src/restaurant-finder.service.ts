@@ -81,7 +81,7 @@ class RestaurantFinderService implements IRestaurantFinderService {
     });
 
     if (!res.ok) {
-      console.log('Failed to fetch restuarant => ', res.ok, res.statusText, +'(' + res.status + ')');
+      console.log('Failed to fetch restuarant => ', res.ok, res.statusText, +'[' + res.status + ']');
       return {};
     }
 
@@ -102,7 +102,10 @@ class RestaurantFinderService implements IRestaurantFinderService {
 
     let chatResponse1 = await this.chatToLLM(this.modelOllama, message, restaurantFinderPromptTemplate, { message: message });
 
-    chatResponse1 = chatResponse1.replace(/\n/g, ' ').trim();
+    chatResponse1 = chatResponse1
+      .replace(/\n/g, ' ')
+      .replace(/\s{2,}/g, ' ')
+      .trim();
     console.log(chatResponse1);
 
     let parseChatResponse: { action: string; parameters: { [key: string]: any }; message?: string } | null = null;
@@ -152,8 +155,11 @@ class RestaurantFinderService implements IRestaurantFinderService {
       { chunkSize: 4000, chunkOverlap: 500 }
     );
 
-    chatResponse2 = chatResponse2.replace(/\n/g, ' ').trim();
-
+    chatResponse2 = chatResponse2
+      .replace(/\n/g, ' ')
+      .replace(/\s{2,}/g, ' ')
+      .trim();
+    console.log(chatResponse2);
     let parseChatResponse2: { message: string } | null = null;
 
     try {
