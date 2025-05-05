@@ -72,3 +72,9 @@ one of the following options. ll=lat,long still defaults to geolocation using ip
 So if you Chat with: "Find me a cheap sushi restaurant in Japan Tokyo that's open now and has at least a 4-star rating."\
 And you are located in Philippines Davao or Digos, it use you IP instead, so the result are always where you IP location\
 You check it on [IP info](https://ipinfo.io/what-is-my-ip)
+
+
+## Samples
+![sample1](./assets/sample1.png)
+![sample2](./assets/sample2.png)
+![sample3](./assets/sample3.png)
